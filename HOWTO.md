@@ -27,12 +27,13 @@ cp -r hpi-vorkurs-git/* myrepo
 // 'cp -r' - um alle Dateien & Unterverzeichnisse zu kopieren
 // hpi-vorkurs-git/* - damit keine unsichtbaren Dateien wie Git-Configs aus .git kopiert werden, ansonsten hat man das Repo schon mitkopiert
 ```
-Alle Dateien von `hpi-vorkurs-git` sind jetzt auch in `myrepo`.
+Alle Dateien aus `hpi-vorkurs-git` sind jetzt auch in `myrepo`.
 
+## Überprüfen...
+Mit `cd` in den Ordner `repo` gehen und Dateien mit `ls` auflisten
 ```shell
 cd myrepo
-```
-```shell
+
 ls -l
 -------------------
 -rw-r--r--  1 oliver.schewe  staff      107  6 Okt 17:45 README.md
@@ -42,12 +43,14 @@ drwxr-xr-x  4 oliver.schewe  staff      128  6 Okt 17:45 src
 ```
 
 ## Repo bei Github erstellen
-URL: [https://github.com/](https://github.com/)
+Github-Seite besuchen: [https://github.com/](https://github.com/)
+
+Knöpfe drücken und Daten eingeben...
 
 ![](./bilder/1.png)
 ![](./bilder/3.png)
 
-## Repo mit dem Ordner initialisieren
+## Ordner mit dem neuen Repo initialisieren und verknüpfen
 
 siehe Github Befehle im leerem Repo auf Github
 ![](./bilder/4.png)
@@ -74,9 +77,9 @@ git push -u origin main
 ```
 ![](./bilder/5.png)
 
-Github-Repo im Browser refreshen und freuen (wenn alle Dateien da sind) ✅
+Github-Repo-Seite im Browser refreshen und freuen (aber nur wenn alle Dateien da sind) ✅
 
 ![](./bilder/6.png)
 
-
+Streicheln...
 <center><img src="./bilder/IMG_2017.png" width="600"/></center>
