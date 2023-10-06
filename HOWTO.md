@@ -73,4 +73,4 @@ Github-Repo im Browser refreshen und freuen (wenn alle Dateien da sind) ✅
 ![](./bilder/6.png)
 
 
-![](./bilder/IMG_2017.png)
+<center><img src="./bilder/IMG_2017.png" width="600"/></center>
