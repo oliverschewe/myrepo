@@ -81,5 +81,5 @@ Github-Repo-Seite im Browser refreshen und freuen (aber nur wenn alle Dateien da
 
 ![](./bilder/6.png)
 
-Streicheln...
+## Streicheln...
 <center><img src="./bilder/IMG_2017.png" width="600"/></center>
