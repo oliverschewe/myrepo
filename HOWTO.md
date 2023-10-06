@@ -9,17 +9,23 @@ mkdir Uni
 cd Uni
 ```
 
+
 ## Repo clonen
 ```shell
 git clone git@github.com:tyronfranzke/hpi-vorkurs-git.git
 ```
 Ordner `hpi-vorkurs-git` existiert jetzt in Ordner `Uni`.
 
+
 ## neuen Ordner für neues Repo erstellen & Dateien kopieren
 Name: `myrepo`
 ```shell
 mkdir myrepo
+
 cp -r hpi-vorkurs-git/* myrepo
+
+// 'cp -r' - um alle Dateien & Unterverzeichnisse zu kopieren
+// hpi-vorkurs-git/* - damit keine unsichtbaren Dateien wie Git-Configs aus .git kopiert werden, ansonsten hat man das Repo schon mitkopiert
 ```
 Alle Dateien von `hpi-vorkurs-git` sind jetzt auch in `myrepo`.
 
